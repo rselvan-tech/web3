@@ -1,10 +1,50 @@
 {
 	"compiler": {
-		"version": "0.8.19+commit.7dd6d404"
+		"version": "0.8.18+commit.87f61d96"
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "favouriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "fnum",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -18,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleStorage.sol": "SimpleStorage"
+			"SimpleStorage_1.sol": "SimpleStorage"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SimpleStorage.sol": {
-			"keccak256": "0xf6dbc16ad7482bfc58e02ff4cd2ebaa93e4cbdc826fb3b329db8e0323baa2dd5",
+		"SimpleStorage_1.sol": {
+			"keccak256": "0x9263ba5d6a81e7204b58621566d2a1d96ac6b1dd6a01f5a88de450c568828fbe",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://334e4ebdf3785aea113a3ba3b163a372345c4416d3c50d76c0364d2a2de327d1",
-				"dweb:/ipfs/QmTwfWRbewY7afuddbc8pzEqbGd7uopMmfyrzDGCxctarg"
+				"bzz-raw://af022954f983b8d8029da257020c6ddc825ba2bbef0fa7f8892b92ca9b8083c2",
+				"dweb:/ipfs/QmVbkze7y6rBHvNSwyxjdupmNt4FhMvaLuJuRgGb3VLV2u"
 			]
 		}
 	},
