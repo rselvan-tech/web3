@@ -80,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleStruct_3.sol": "SimpleStruct"
+			"Solidity/Cyfrin_Course/SimpleStruct_3.sol": "SimpleStruct"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -94,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SimpleStruct_3.sol": {
-			"keccak256": "0xa0ccb565f1cfb2d7cbac37f1d33055ae9a24e0ca75653d97abb7e0aee8943b81",
+		"Solidity/Cyfrin_Course/SimpleStruct_3.sol": {
+			"keccak256": "0x4e147000437ea3bd4aaceae7ba93007572fc440b4d9a2914344a2d9500d653e8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d02bbee753d509fa8718af5ec953d14f48548d0c1ab42d3dc2d5d24a8ee0e543",
-				"dweb:/ipfs/QmXzoQQ1Sr5CdvMVv4bxQkToYZNvVr6tikgYTAddekR1b7"
+				"bzz-raw://883ff34a6549d072a7c0f095cd1f8ae401fe24d42d7f19bbbed3f9e98ca7e139",
+				"dweb:/ipfs/QmPftFJMEhmoSD6m4U5bgGRSdK1aVUixFjkA8R3CtDyB41"
 			]
 		}
 	},
