@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"name": "getSF",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "storageContracts",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "favNum",
+						"type": "uint256"
+					}
+				],
+				"name": "storeSF",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Cyfrin_Course/3.3 StorageFactory_3.sol": "StorageFactory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Cyfrin_Course/1.2 SimpleStorage_1.sol": {
+			"keccak256": "0x9263ba5d6a81e7204b58621566d2a1d96ac6b1dd6a01f5a88de450c568828fbe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af022954f983b8d8029da257020c6ddc825ba2bbef0fa7f8892b92ca9b8083c2",
+				"dweb:/ipfs/QmVbkze7y6rBHvNSwyxjdupmNt4FhMvaLuJuRgGb3VLV2u"
+			]
+		},
+		"Solidity/Cyfrin_Course/3.3 StorageFactory_3.sol": {
+			"keccak256": "0xf75f261f9130d7f6ea5cc3c9a79955e7bc1c1c7d154d4317e278914d3fed5231",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://231ea2d0120dd1060b13eacb603346aa0bb0c0e2e6dda22e6f07e6363fbfa5d5",
+				"dweb:/ipfs/QmYr82iBq84WvGVQQaLXzwwpDcyUVjPiNo1vfcFtfY4Zpm"
+			]
+		}
+	},
+	"version": 1
+}

@@ -5,7 +5,7 @@ pragma solidity 0.8.18;
 contract SimpleStorage{
     uint public favouriteNumber; 
 
-    function store(uint fnum) public {
+    function store(uint fnum) public virtual{
         favouriteNumber=fnum;
     }
 

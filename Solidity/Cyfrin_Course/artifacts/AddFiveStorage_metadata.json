@@ -35,7 +35,7 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "fnum",
+						"name": "favNum",
 						"type": "uint256"
 					}
 				],
@@ -58,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Solidity/Cyfrin_Course/1.2 SimpleStorage_1.sol": "SimpleStorage"
+			"Solidity/Cyfrin_Course/4.2 AddFiveStorage_3.sol": "AddFiveStorage"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -78,6 +78,14 @@
 			"urls": [
 				"bzz-raw://4f023e7345a05891c7cf4a9f619c4bbd826c6bec99aa0b39e1d84034bbf5dcc1",
 				"dweb:/ipfs/QmT2baNbtN57fnVfFF1nGKnnc9P4ZuPhUKuZ11vxQb7EbN"
+			]
+		},
+		"Solidity/Cyfrin_Course/4.2 AddFiveStorage_3.sol": {
+			"keccak256": "0xadfbff8b4302cfdee4e049b1d854e490796d01ca55bddc08e10b5426ffd8c714",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e282bf3078222979d5ef03288ead05b648609b002fb855c7ca94b6892a03aad5",
+				"dweb:/ipfs/QmcwoZvZihQMQG1R81Yit3L1prh2fKnnWEccBR9Nzn3vux"
 			]
 		}
 	},
