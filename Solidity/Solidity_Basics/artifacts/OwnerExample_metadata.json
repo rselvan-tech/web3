@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Solidity_Basics/2.OwnerExample.sol": "OwnerExample"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Solidity_Basics/2.OwnerExample.sol": {
+			"keccak256": "0x09a179998a85cff73e1827a1860b6119bf98caa53f9bd51758bff06e098f0b75",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b6891100302b3ae2abde01b8fe24631eeb30f797adc8044ee7995f66ac07189d",
+				"dweb:/ipfs/QmaGw9dGAvejs85jcPvwUyewDQiex4iBqMfvKysyEqHsct"
+			]
+		}
+	},
+	"version": 1
+}
