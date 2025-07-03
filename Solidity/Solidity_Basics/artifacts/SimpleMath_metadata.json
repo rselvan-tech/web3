@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/Solidity_Basics/7.SimpleMath.sol": "SimpleMath"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/Solidity_Basics/7.SimpleMath.sol": {
+			"keccak256": "0x4fa60ae9740d333f9c9097bbc54cf99b064b0229c119e099a3ca76c274953566",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a81f7d51e4917a9421cbc65cadc492c4a48d1fa46bf70bd5638dc4973cc620b",
+				"dweb:/ipfs/QmRLxK9xYXKKEBZCrZUPQHnAt2YxVSnNfS1YLg1dqSuHqR"
+			]
+		}
+	},
+	"version": 1
+}
