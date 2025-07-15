@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "counter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Solidity/2.Chainlink Fundamentals/5.Chainlink Automation/TimeBased.sol": "TimeBased"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Solidity/2.Chainlink Fundamentals/5.Chainlink Automation/TimeBased.sol": {
+			"keccak256": "0x358bf63e377a4e9a640b762fb051ba1578365c58ef6e6d414f4ec2920410d868",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://08264956f4cc5f2eeedf7dcc44378078c5fe3e7beb90de31647b8f1fc76d5ad3",
+				"dweb:/ipfs/QmU9oJK6UfVNUQJYoGnDNmrNU17DYDvedSkQFbTsfKLAWK"
+			]
+		}
+	},
+	"version": 1
+}
