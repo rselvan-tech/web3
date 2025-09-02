@@ -2,16 +2,15 @@
 
 pragma solidity ^0.8.18;
 
-contract SimpleStorage{
-    uint public favouriteNumber; 
+contract SimpleStorage {
+    uint public favouriteNumber;
 
-    function store(uint fnum) public virtual{
-        favouriteNumber=fnum;
+    function store(uint fnum) public virtual {
+        favouriteNumber = fnum;
     }
 
     //view, pure
-    function get() public view returns(uint){
+    function get() public view returns (uint) {
         return favouriteNumber;
     }
-
 }
